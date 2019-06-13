@@ -1,0 +1,12 @@
+2019-06-12 16:32:04.811  INFO 50364 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 50364 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-12 16:32:04.812  INFO 50364 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: pro
+2019-06-12 16:32:07.102  WARN 50364 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-12 16:32:07.173  WARN 50364 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-12 16:32:07.348  INFO 50364 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 2.939 seconds (JVM running for 3.479)
+2019-06-12 16:38:45.805  INFO 48804 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 48804 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-12 16:38:45.808  INFO 48804 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: pro
+2019-06-12 16:38:48.040  WARN 48804 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-06-12 16:38:48.224  INFO 48804 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 2.78 seconds (JVM running for 3.337)
+2019-06-12 16:54:36.449  INFO 50472 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 50472 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-12 16:54:36.451  INFO 50472 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: pro
+2019-06-12 16:54:39.118  INFO 50472 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.069 seconds (JVM running for 3.588)
