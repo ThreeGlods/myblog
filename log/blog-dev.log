@@ -166,3 +166,1203 @@
 2019-06-13 10:13:37.587  INFO 52164 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
 2019-06-13 10:15:01.010  INFO 52164 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://10.200.4.91:8080/3/hello', ip='10.200.12.60', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[3, hello]}
 2019-06-13 10:15:01.011  INFO 52164 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 10:46:32.941  INFO 52724 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 52724 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 10:46:32.943 DEBUG 52724 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 10:46:32.943  INFO 52724 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 10:46:33.082  INFO 52724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 10:46:33.082  INFO 52724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 10:46:33.751  INFO 52724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 10:46:33.768  INFO 52724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-06-13 10:46:34.044  INFO 52724 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c3bcbaa7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 10:46:34.421  INFO 52724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 10:46:34.441  INFO 52724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 10:46:34.441  INFO 52724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 10:46:34.526  INFO 52724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 10:46:34.526  INFO 52724 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1444 ms
+2019-06-13 10:46:34.668  INFO 52724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 10:46:34.957  INFO 52724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 10:46:34.996  INFO 52724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 10:46:35.036  INFO 52724 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 10:46:35.037  INFO 52724 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 10:46:35.132  INFO 52724 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 10:46:35.239  INFO 52724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 10:46:35.388  INFO 52724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 10:46:35.448  INFO 52724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 10:46:35.745  INFO 52724 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 10:46:35.899  INFO 52724 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 10:46:36.121  INFO 52724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 10:46:36.123  INFO 52724 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.517 seconds (JVM running for 4.046)
+2019-06-13 10:46:51.831  INFO 52724 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 10:46:51.837  INFO 52724 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 10:46:51.837  INFO 52724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 10:46:51.846  INFO 52724 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-13 10:46:51.864  INFO 52724 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 10:46:51.867  INFO 52724 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 10:48:28.117  INFO 52724 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 10:48:28.117  INFO 52724 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:10:25.179  INFO 52724 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:10:25.180  INFO 52724 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:10:25.227 ERROR 52724 --- [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+Caused by: org.attoparser.ParseException: Error resolving template [_fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 3, col 7)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [_fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 3, col 7)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 54 common frames omitted
+
+2019-06-13 11:10:25.230 ERROR 52724 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [_fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 3, col 7)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+
+2019-06-13 11:11:02.927  INFO 52724 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:11:02.927  INFO 52724 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:11:02.945 ERROR 52724 --- [http-nio-8080-exec-5] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-5] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+Caused by: org.attoparser.ParseException: Error resolving template [_fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 3, col 7)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [_fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 3, col 7)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 54 common frames omitted
+
+2019-06-13 11:11:02.947 ERROR 52724 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [_fragments], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 3, col 7)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+
+2019-06-13 11:15:11.998  INFO 50380 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 50380 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 11:15:12.005 DEBUG 50380 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 11:15:12.005  INFO 50380 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 11:15:12.041  INFO 50380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 11:15:12.041  INFO 50380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 11:15:12.662  INFO 50380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 11:15:12.681  INFO 50380 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-06-13 11:15:12.966  INFO 50380 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$acb83175] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 11:15:13.357  INFO 50380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 11:15:13.377  INFO 50380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 11:15:13.378  INFO 50380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 11:15:13.464  INFO 50380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 11:15:13.464  INFO 50380 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1423 ms
+2019-06-13 11:15:13.626  INFO 50380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 11:15:13.927  INFO 50380 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 11:15:13.968  INFO 50380 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 11:15:14.010  INFO 50380 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 11:15:14.011  INFO 50380 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 11:15:14.108  INFO 50380 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 11:15:14.214  INFO 50380 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 11:15:14.361  INFO 50380 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 11:15:14.423  INFO 50380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 11:15:14.720  INFO 50380 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 11:15:14.887  INFO 50380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 11:15:15.140  INFO 50380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 11:15:15.142  INFO 50380 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.525 seconds (JVM running for 4.1)
+2019-06-13 11:15:27.223  INFO 50380 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 11:15:27.227  INFO 50380 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 11:15:27.227  INFO 50380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 11:15:27.239  INFO 50380 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-06-13 11:15:27.255  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:15:27.258  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:15:57.257  INFO 50380 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:15:57.258  INFO 50380 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:16:11.690  INFO 50380 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:16:11.691  INFO 50380 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:33:36.756  INFO 50380 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:33:36.757  INFO 50380 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:35:11.230  INFO 50380 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:35:11.231  INFO 50380 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:40:06.752  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:40:06.752  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:40:10.026  INFO 50380 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:40:10.027  INFO 50380 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:40:28.629  INFO 50380 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:40:28.629  INFO 50380 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:40:29.488  INFO 50380 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:40:29.489  INFO 50380 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:41:11.035  INFO 50380 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:41:11.035  INFO 50380 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:41:22.692  INFO 50380 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:41:22.693  INFO 50380 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 11:41:30.810  INFO 50380 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 11:41:30.811  INFO 50380 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 13:02:21.518  WARN 50380 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m37s427ms370µs741ns).
+2019-06-13 13:44:12.520  WARN 50380 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m50s406ms113µs640ns).
+2019-06-13 15:41:26.045  INFO 50380 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 15:41:26.046  INFO 50380 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:06:29.825  INFO 50380 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:06:29.825  INFO 50380 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:06:43.167  INFO 50380 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:06:43.167  INFO 50380 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:08:54.563  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:08:54.565  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:09:11.466  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:09:11.466  INFO 50380 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:09:12.786  INFO 50380 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:09:12.787  INFO 50380 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:09:24.237  INFO 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 49972 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:09:24.239 DEBUG 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:09:24.239  INFO 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:09:24.270  INFO 49972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:09:24.270  INFO 49972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:09:24.979  INFO 49972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:09:25.001  INFO 49972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-06-13 16:09:25.246  INFO 49972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fbbee1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:09:25.605  INFO 49972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:09:25.623  INFO 49972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:09:25.623  INFO 49972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:09:25.714  INFO 49972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:09:25.715  INFO 49972 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1445 ms
+2019-06-13 16:09:25.848  INFO 49972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:09:26.122  INFO 49972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:09:26.159  INFO 49972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:09:26.198  INFO 49972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:09:26.199  INFO 49972 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:09:26.291  INFO 49972 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:09:26.395  INFO 49972 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:09:26.537  INFO 49972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:09:26.593  INFO 49972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:09:26.867  INFO 49972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:09:27.018  INFO 49972 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:09:27.240  INFO 49972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:09:27.242  INFO 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.297 seconds (JVM running for 3.781)
+2019-06-13 16:09:50.096  INFO 49972 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:09:50.101  INFO 49972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:09:50.101  INFO 49972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:09:50.110  INFO 49972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-13 16:09:50.127  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:09:50.130  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:11:39.677  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:11:39.678  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:11:54.647  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:11:54.648  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:12:05.541  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:12:05.542  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:12:10.451  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:12:10.452  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:14:30.631  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:14:30.632  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:14:32.699  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:14:32.700  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:14:45.838  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:14:45.839  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:16:15.705  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:16:15.706  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:11.563  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:11.564  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:13.341  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:13.342  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:14.793  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:14.794  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:15.780  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:15.781  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:16.560  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:16.560  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:17.292  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:17.292  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:18.269  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:18.270  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:18.762  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:18.763  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:19.084  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:19.084  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:19.309  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:19.309  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:20.028  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:20.028  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:20.698  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:20.699  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:21.361  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:21.361  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:21.949  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:21.949  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:22.469  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:22.470  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:22.892  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:22.892  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:23.252  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:23.252  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:23.699  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:23.699  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:24.507  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:24.508  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:25.396  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:25.397  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:26.412  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:26.412  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:27.268  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:27.268  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:28.144  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:28.145  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:29.147  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:29.148  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:30.027  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:30.027  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:30.848  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:30.849  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:31.647  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:31.647  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:32.626  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:32.626  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:33.339  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:33.339  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:33.890  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:33.891  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:56.025  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:56.026  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:56.837  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:56.838  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:57.610  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:57.611  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:58.266  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:58.266  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:58.913  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:58.913  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:18:59.476  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:18:59.476  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:00.020  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:00.020  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:00.594  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:00.594  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:01.114  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:01.115  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:01.505  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:01.506  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:01.866  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:01.866  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:02.178  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:02.179  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:02.431  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:02.431  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:03.331  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:03.331  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:04.198  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:04.198  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:10.382  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:10.382  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:19:12.856  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:19:12.857  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:08.743  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:08.743  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:09.604  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:09.605  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:10.445  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:10.446  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:11.286  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:11.287  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:12.181  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:12.182  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:12.981  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:12.982  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:13.783  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:13.784  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:14.858  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:14.859  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:16.266  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:16.267  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:17.090  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:17.091  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:17.845  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:17.845  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:18.412  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:18.413  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:18.628  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:18.629  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:18.806  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:18.806  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:18.986  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:18.986  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:19.149  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:19.149  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:19.349  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:19.349  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:19.524  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:19.525  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:19.732  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:19.733  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:19.992  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:19.992  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:20.225  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:20.225  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:20.424  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:20.425  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:20.597  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:20.597  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:20.788  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:20.789  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:20.994  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:20.994  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:21.180  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:21.181  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:21.357  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:21.357  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:21.573  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:21.574  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:21.758  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:21.758  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:21.976  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:21.977  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:22.158  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:22.159  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:22.366  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:22.367  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:22.545  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:22.545  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:22.728  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:22.729  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:22.936  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:22.936  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:23.093  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:23.093  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:23.310  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:23.310  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:23.499  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:23.499  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:23.701  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:23.702  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:23.902  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:23.902  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:27.047  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:27.047  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:20:27.756  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:20:27.757  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:24:16.823  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:24:16.823  INFO 49972 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:27:07.302  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:27:07.302  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:27:09.663  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:27:09.663  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:28:34.708  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:28:34.709  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:28:35.438  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:28:35.438  INFO 49972 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:31:03.200  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:31:03.200  INFO 49972 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:31:08.663  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:31:08.664  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:31:13.606  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:31:13.607  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:31:31.640  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:31:31.640  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:31:33.157  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:31:33.158  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:32:29.013  INFO 49972 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:32:29.015  INFO 49972 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:32:29.017  INFO 49972 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-13 16:32:29.023  INFO 49972 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-06-13 16:32:29.224  INFO 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 49972 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:32:29.224 DEBUG 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:32:29.224  INFO 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:32:29.372  INFO 49972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:32:29.373  INFO 49972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-06-13 16:32:29.409  INFO 49972 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fbbee1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:32:29.503  INFO 49972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:32:29.504  INFO 49972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:32:29.504  INFO 49972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:32:29.514  INFO 49972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:32:29.514  INFO 49972 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 288 ms
+2019-06-13 16:32:29.569  INFO 49972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-06-13 16:32:29.578  INFO 49972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-06-13 16:32:29.584  INFO 49972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:32:29.608  INFO 49972 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:32:29.620  INFO 49972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:32:29.650  INFO 49972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:32:29.805  INFO 49972 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:32:29.875  INFO 49972 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:32:30.022  INFO 49972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:32:30.022  INFO 49972 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 0.819 seconds (JVM running for 1386.571)
+2019-06-13 16:32:30.025  INFO 49972 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-13 16:32:30.853  INFO 49972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:32:30.855  INFO 49972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:32:30.878  INFO 49972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2019-06-13 16:32:30.880  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:32:30.883  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:32:32.563  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:32:32.564  INFO 49972 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:32:33.345  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:32:33.346  INFO 49972 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:32:33.861  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:32:33.861  INFO 49972 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:35:59.215  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:35:59.216  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:00.400  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:36:00.400  INFO 49972 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:02.915  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:36:02.915  INFO 49972 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:17.196  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:36:17.197  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:18.583  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:36:18.584  INFO 49972 --- [http-nio-8080-exec-3] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:21.556  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:36:21.556  INFO 49972 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:27.533  INFO 52248 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 52248 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:36:27.535 DEBUG 52248 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:36:27.535  INFO 52248 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:36:27.565  INFO 52248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:36:27.566  INFO 52248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:36:28.156  INFO 52248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:36:28.171  INFO 52248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-06-13 16:36:28.427  INFO 52248 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$86f1a7e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:36:28.788  INFO 52248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:36:28.806  INFO 52248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:36:28.806  INFO 52248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:36:28.888  INFO 52248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:36:28.888  INFO 52248 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1322 ms
+2019-06-13 16:36:29.039  INFO 52248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:36:29.338  INFO 52248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:36:29.377  INFO 52248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:36:29.419  INFO 52248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:36:29.420  INFO 52248 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:36:29.511  INFO 52248 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:36:29.615  INFO 52248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:36:29.761  INFO 52248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:36:29.821  INFO 52248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:36:30.100  INFO 52248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:36:30.254  INFO 52248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:36:30.491  INFO 52248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:36:30.494  INFO 52248 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.313 seconds (JVM running for 3.828)
+2019-06-13 16:36:37.275  INFO 52248 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:36:37.281  INFO 52248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:36:37.282  INFO 52248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:36:37.293  INFO 52248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-06-13 16:36:37.315  INFO 52248 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:36:37.318  INFO 52248 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:39.174  INFO 52248 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:36:39.175  INFO 52248 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:36:55.754  INFO 53892 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 53892 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:36:55.759 DEBUG 53892 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:36:55.759  INFO 53892 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:36:55.824  INFO 53892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:36:55.824  INFO 53892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:36:56.395  INFO 53892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:36:56.409  INFO 53892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-06-13 16:36:56.668  INFO 53892 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34abb487] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:36:57.051  INFO 53892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:36:57.067  INFO 53892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:36:57.068  INFO 53892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:36:57.143  INFO 53892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:36:57.143  INFO 53892 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1319 ms
+2019-06-13 16:36:57.279  INFO 53892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:36:57.551  INFO 53892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:36:57.588  INFO 53892 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:36:57.628  INFO 53892 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:36:57.629  INFO 53892 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:36:57.719  INFO 53892 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:36:57.821  INFO 53892 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:36:57.962  INFO 53892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:36:58.019  INFO 53892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:36:58.301  INFO 53892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:36:58.450  INFO 53892 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:36:58.673  INFO 53892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:36:58.675  INFO 53892 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.229 seconds (JVM running for 3.711)
+2019-06-13 16:37:01.950  INFO 53892 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:37:01.955  INFO 53892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:37:01.955  INFO 53892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:37:01.964  INFO 53892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-13 16:37:01.981  INFO 53892 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:37:01.984  INFO 53892 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:37:03.452  INFO 53892 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:37:03.453  INFO 53892 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:37:08.779  INFO 53892 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:37:08.780  INFO 53892 --- [http-nio-8080-exec-7] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:37:13.094  INFO 53892 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:37:13.096  INFO 53892 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:37:15.005  INFO 53892 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:37:15.006  INFO 53892 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:38:27.984  INFO 53892 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:38:27.985  INFO 53892 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:38:30.775  INFO 53892 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:38:30.777  INFO 53892 --- [http-nio-8080-exec-4] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:38:50.853 DEBUG 51240 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-06-13 16:38:50.977  INFO 51240 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 51240 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:38:50.977 DEBUG 51240 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:38:50.978  INFO 51240 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:38:51.010  INFO 51240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:38:51.010  INFO 51240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:38:51.577  INFO 51240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:38:51.591  INFO 51240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-06-13 16:38:51.846  INFO 51240 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aa72f15c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:38:52.213  INFO 51240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:38:52.232  INFO 51240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:38:52.232  INFO 51240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:38:52.319  INFO 51240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:38:52.319  INFO 51240 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1308 ms
+2019-06-13 16:38:52.516  INFO 51240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:38:52.769  INFO 51240 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:38:52.805  INFO 51240 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:38:52.846  INFO 51240 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:38:52.847  INFO 51240 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:38:52.937  INFO 51240 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:38:53.041  INFO 51240 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:38:53.182  INFO 51240 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:38:53.241  INFO 51240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:38:53.572  INFO 51240 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:38:53.729  INFO 51240 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:38:53.972  INFO 51240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:38:53.974  INFO 51240 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.461 seconds (JVM running for 4.133)
+2019-06-13 16:38:56.793  INFO 51240 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:38:56.798  INFO 51240 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:38:56.798  INFO 51240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:38:56.807  INFO 51240 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-13 16:38:56.822  INFO 51240 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:38:56.825  INFO 51240 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:39:00.711  INFO 51240 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:39:00.712  INFO 51240 --- [http-nio-8080-exec-6] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:39:01.864  INFO 51240 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:39:01.867  INFO 51240 --- [http-nio-8080-exec-10] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:40:53.211  INFO 48152 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 48152 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:40:53.213 DEBUG 48152 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:40:53.213  INFO 48152 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:40:53.240  INFO 48152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:40:53.241  INFO 48152 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:40:53.727  INFO 48152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:40:53.749  INFO 48152 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-06-13 16:40:54.002  INFO 48152 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b178c1b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:40:54.367  INFO 48152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:40:54.384  INFO 48152 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:40:54.384  INFO 48152 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:40:54.467  INFO 48152 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:40:54.467  INFO 48152 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1226 ms
+2019-06-13 16:40:54.619  INFO 48152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:40:54.970  INFO 48152 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:40:55.017  INFO 48152 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:40:55.063  INFO 48152 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:40:55.064  INFO 48152 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:40:55.164  INFO 48152 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:40:55.275  INFO 48152 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:40:55.416  INFO 48152 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:40:55.474  INFO 48152 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:40:55.757  INFO 48152 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:40:55.918  INFO 48152 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:40:56.158  INFO 48152 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:40:56.161  INFO 48152 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.399 seconds (JVM running for 4.413)
+2019-06-13 16:40:57.782  INFO 48152 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:40:57.788  INFO 48152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:40:57.788  INFO 48152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:40:57.797  INFO 48152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-13 16:40:57.813  INFO 48152 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:40:57.815  INFO 48152 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:43:19.292  INFO 53372 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 53372 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:43:19.294 DEBUG 53372 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:43:19.294  INFO 53372 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:43:19.351  INFO 53372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:43:19.351  INFO 53372 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:43:20.024  INFO 53372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:43:20.040  INFO 53372 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-06-13 16:43:20.326  INFO 53372 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf9b87e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:43:20.730  INFO 53372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:43:20.747  INFO 53372 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:43:20.748  INFO 53372 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:43:20.825  INFO 53372 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:43:20.825  INFO 53372 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1474 ms
+2019-06-13 16:43:20.974  INFO 53372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:43:21.270  INFO 53372 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:43:21.310  INFO 53372 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:43:21.354  INFO 53372 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:43:21.355  INFO 53372 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:43:21.450  INFO 53372 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:43:21.555  INFO 53372 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:43:21.706  INFO 53372 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:43:21.789  INFO 53372 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:43:22.072  INFO 53372 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:43:22.227  INFO 53372 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:43:22.466  INFO 53372 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:43:22.469  INFO 53372 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.591 seconds (JVM running for 4.101)
+2019-06-13 16:43:29.967  INFO 53372 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:43:29.972  INFO 53372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:43:29.972  INFO 53372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:43:29.981  INFO 53372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-13 16:43:29.999  INFO 53372 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:43:30.001  INFO 53372 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:43:30.267 ERROR 53372 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+Caused by: org.attoparser.ParseException: Error resolving template [_fragment], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 453, col 9)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [_fragment], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 453, col 9)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 54 common frames omitted
+
+2019-06-13 16:43:30.273 ERROR 53372 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [_fragment], template might not exist or might not be accessible by any of the configured Template Resolvers (template: "index" - line 453, col 9)
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseStandalone(TemplateManager.java:250) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.FragmentExpression.resolveExecutedFragmentExpression(FragmentExpression.java:588) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.computeFragment(AbstractStandardFragmentInsertionTagProcessor.java:379) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardFragmentInsertionTagProcessor.doProcess(AbstractStandardFragmentInsertionTagProcessor.java:110) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_121]
+
+2019-06-13 16:43:30.303 ERROR 53372 --- [http-nio-8080-exec-1] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/] and exception [An error happened during template parsing (template: "class path resource [templates/index.html]")] as the response has already been committed. As a result, the response may have the wrong status code.
+2019-06-13 16:44:31.376  INFO 53472 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 53472 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:44:31.378 DEBUG 53472 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:44:31.378  INFO 53472 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:44:31.419  INFO 53472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:44:31.419  INFO 53472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:44:32.032  INFO 53472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:44:32.047  INFO 53472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-06-13 16:44:32.311  INFO 53472 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79dfcd0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:44:32.685  INFO 53472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:44:32.704  INFO 53472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:44:32.705  INFO 53472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:44:32.795  INFO 53472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:44:32.796  INFO 53472 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1377 ms
+2019-06-13 16:44:33.021  INFO 53472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:44:33.256  INFO 53472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:44:33.295  INFO 53472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:44:33.335  INFO 53472 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:44:33.336  INFO 53472 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:44:33.423  INFO 53472 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:44:33.525  INFO 53472 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:44:33.675  INFO 53472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:44:33.732  INFO 53472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:44:34.011  INFO 53472 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:44:34.161  INFO 53472 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:44:34.380  INFO 53472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:44:34.383  INFO 53472 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.385 seconds (JVM running for 3.911)
+2019-06-13 16:44:44.223  INFO 53472 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:44:44.228  INFO 53472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:44:44.228  INFO 53472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:44:44.237  INFO 53472 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-06-13 16:44:44.254  INFO 53472 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:44:44.257  INFO 53472 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:44:47.807  INFO 53472 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:44:47.808  INFO 53472 --- [http-nio-8080-exec-9] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:51:43.855  INFO 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 54132 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 16:51:43.858 DEBUG 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 16:51:43.858  INFO 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 16:51:44.012  INFO 54132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-13 16:51:44.013  INFO 54132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-13 16:51:44.505  INFO 54132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 16:51:44.523  INFO 54132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-06-13 16:51:44.803  INFO 54132 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d04af903] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 16:51:45.177  INFO 54132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 16:51:45.197  INFO 54132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 16:51:45.197  INFO 54132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 16:51:45.285  INFO 54132 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 16:51:45.286  INFO 54132 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1273 ms
+2019-06-13 16:51:45.427  INFO 54132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-13 16:51:45.721  INFO 54132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-13 16:51:45.761  INFO 54132 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 16:51:45.803  INFO 54132 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-13 16:51:45.804  INFO 54132 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-13 16:51:45.902  INFO 54132 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-13 16:51:46.007  INFO 54132 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 16:51:46.161  INFO 54132 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 16:51:46.224  INFO 54132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 16:51:46.522  INFO 54132 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 16:51:46.674  INFO 54132 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 16:51:46.897  INFO 54132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 16:51:46.899  INFO 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 3.596 seconds (JVM running for 4.141)
+2019-06-13 16:51:56.413  INFO 54132 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1559639821,1559640171,1559641750] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2019-06-13 16:51:56.419  INFO 54132 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 16:51:56.420  INFO 54132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 16:51:56.428  INFO 54132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-13 16:51:56.446  INFO 54132 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:51:56.450  INFO 54132 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 16:51:59.776  INFO 54132 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 16:51:59.776  INFO 54132 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 17:01:23.772  INFO 54132 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-13 17:01:23.773  INFO 54132 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 17:01:23.776  INFO 54132 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-13 17:01:23.780  INFO 54132 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-06-13 17:01:23.965  INFO 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Starting MyblogApplication on 井鑫-YWB with PID 54132 (C:\Users\Administrator\IdeaProjects\myblog\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\myblog)
+2019-06-13 17:01:23.966 DEBUG 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-13 17:01:23.966  INFO 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : The following profiles are active: dev
+2019-06-13 17:01:24.117  INFO 54132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-13 17:01:24.118  INFO 54132 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-06-13 17:01:24.155  INFO 54132 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d04af903] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-13 17:01:24.250  INFO 54132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-13 17:01:24.251  INFO 54132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-13 17:01:24.251  INFO 54132 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-13 17:01:24.264  INFO 54132 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-13 17:01:24.264  INFO 54132 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 297 ms
+2019-06-13 17:01:24.324  INFO 54132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-06-13 17:01:24.333  INFO 54132 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-06-13 17:01:24.340  INFO 54132 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-13 17:01:24.363  INFO 54132 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-06-13 17:01:24.377  INFO 54132 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-13 17:01:24.409  INFO 54132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-13 17:01:24.570  INFO 54132 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-13 17:01:24.649  INFO 54132 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-06-13 17:01:24.806  INFO 54132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-13 17:01:24.806  INFO 54132 --- [restartedMain] c.jipinxiaohei.myblog.MyblogApplication  : Started MyblogApplication in 0.86 seconds (JVM running for 582.065)
+2019-06-13 17:01:24.808  INFO 54132 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-13 17:01:29.232  INFO 54132 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-13 17:01:29.234  INFO 54132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-13 17:01:29.259  INFO 54132 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-06-13 17:01:29.262  INFO 54132 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.index', args=[]}
+2019-06-13 17:01:29.267  INFO 54132 --- [http-nio-8080-exec-1] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : index
+2019-06-13 17:01:41.522  INFO 54132 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.blog', args=[]}
+2019-06-13 17:01:41.523  INFO 54132 --- [http-nio-8080-exec-5] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : blog
+2019-06-13 17:03:20.381  INFO 54132 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.blog', args=[]}
+2019-06-13 17:03:20.383  INFO 54132 --- [http-nio-8080-exec-2] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : blog
+2019-06-13 17:03:23.500  INFO 54132 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : {url='http://localhost:8080/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.jipinxiaohei.myblog.web.IndexController.blog', args=[]}
+2019-06-13 17:03:23.501  INFO 54132 --- [http-nio-8080-exec-8] c.jipinxiaohei.myblog.aspect.LogAspect   : Result : blog
