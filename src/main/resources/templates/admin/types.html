@@ -6,6 +6,7 @@
     <meta name="viewport" content="with-device-width, inital-scale=1.8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="../../static/css/me.css">
+
 </head>
 <body>
 <!--导航 -->
@@ -118,6 +119,7 @@
     </div>
 
 </footer>
+
 <!--/*/<th:block th:replace="_fragments :: script">/*/-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
@@ -135,13 +137,12 @@
     );
 
     //消息初始化
-    $('.message .close')
+    $('.message')
         .on('click',function () {
             $(this)
                 .closest('.message')
-
+                .transition('fade');
         });
-
 </script>
 
 </body>
