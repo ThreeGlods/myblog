@@ -1,6 +1,5 @@
 package com.jipinxiaohei.myblog.interceptor;
 
-import org.springframework.web.servlet.FlashMap;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
