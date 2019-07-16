@@ -10,17 +10,20 @@ public class Blog {
 
     @Id   //主键
     @GeneratedValue  //自动生成
-    private Long id;
-    private String title;
-    private String content;
-    private String firstPicture;
-    private String flag;
-    private Integer views;
-    private boolean appreciation;
-    private boolean shareStatement;
-    private boolean commentabled;
-    private boolean published;
-    private boolean recommend;
+    private Long id;    //id
+    private String title;   //  标题
+
+    @Basic(fetch = FetchType.LAZY)
+    @Lob
+    private String content; //内容
+    private String firstPicture;    //首图
+    private String flag;        //分类
+    private Integer views;      //标签
+    private boolean appreciation;   //赞赏
+    private boolean shareStatement;     //转载
+    private boolean commentabled;   //评论
+    private boolean published;  //保存状态
+    private boolean recommend;  //推荐
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
     @Temporal(TemporalType.TIMESTAMP)
@@ -37,6 +40,9 @@ public class Blog {
 
     @OneToMany(mappedBy = "blog")
     private List<Comment> comments =new ArrayList<>();
+
+    @Transient
+    private String tagIds;
 
     public Blog(){
 
@@ -176,6 +182,14 @@ public class Blog {
 
     public void setComments(List<Comment> comments) {
         this.comments = comments;
+    }
+
+    public String getTagIds() {
+        return tagIds;
+    }
+
+    public void setTagIds(String tagIds) {
+        this.tagIds = tagIds;
     }
 
     @Override
