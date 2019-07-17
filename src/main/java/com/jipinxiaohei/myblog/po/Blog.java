@@ -1,4 +1,7 @@
 package com.jipinxiaohei.myblog.po;
+
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -17,7 +20,7 @@ public class Blog {
     @Lob
     private String content; //内容
     private String firstPicture;    //首图
-    private String flag;        //分类
+    private String flag;        //原创
     private Integer views;      //标签
     private boolean appreciation;   //赞赏
     private boolean shareStatement;     //转载
@@ -30,7 +33,7 @@ public class Blog {
     private Date updateTime;
 
     @ManyToOne  //多对一
-    private Type type;
+    private Type type;          //分类
 
     @ManyToMany(cascade = {CascadeType.PERSIST})        //级联新增
     private List<Tag> tags = new ArrayList<>();
@@ -190,6 +193,33 @@ public class Blog {
 
     public void setTagIds(String tagIds) {
         this.tagIds = tagIds;
+    }
+
+
+    public void init(){
+        System.out.println("这是什么："+(this.getTags()));
+        this.tagIds = tagsToIds(this.getTags());
+    }
+
+    //1,2,3
+    private String tagsToIds(List<Tag> tags){
+        System.out.println("11111"+tags);
+        if (!tags.isEmpty()){
+            System.out.println(22222);
+            StringBuffer ids = new StringBuffer();
+            boolean flag = false;
+            for (Tag tag : tags){
+                if (flag){
+                    ids.append(",");
+                }else {
+                    flag = true;
+                }
+                ids.append(tag.getId());
+            }
+            return ids.toString();
+        }else {
+            return tagIds;
+        }
     }
 
     @Override
