@@ -197,15 +197,12 @@ public class Blog {
 
 
     public void init(){
-        System.out.println("这是什么："+(this.getTags()));
         this.tagIds = tagsToIds(this.getTags());
     }
 
     //1,2,3
     private String tagsToIds(List<Tag> tags){
-        System.out.println("11111"+tags);
         if (!tags.isEmpty()){
-            System.out.println(22222);
             StringBuffer ids = new StringBuffer();
             boolean flag = false;
             for (Tag tag : tags){
